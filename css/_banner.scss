@@ -43,6 +43,7 @@
         margin-top: 100px;
         width: 100%;
         max-width: 1000px;
+        // position: relative;
 
         .title{
             font-size: 36px;
@@ -68,7 +69,8 @@
         }
         .madein{
             position: absolute;
-            bottom: 50px;
+            bottom: 20px;
+            right: 20px;
         }
     }
 }
