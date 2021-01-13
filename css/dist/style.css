@@ -61,6 +61,7 @@
 }
 .banner .advertise .madein {
   position: absolute;
+  color: white;
   bottom: 20px;
   right: 20px;
 }
