@@ -1,0 +1,46 @@
+.container{
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+
+    .motos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .moto{
+            flex: 1;
+            align-content: center;
+            margin-top: 50px;
+
+            .motobg{
+                background: url("/img/motobg.png");
+                background-size: 160px;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 209px;
+                height: 118px;
+                margin: auto;
+
+                .motoImg{
+                    width: 209px;
+                    height: 118px;
+                    object-fit: contain;
+                }
+            }
+            .motoName{
+                font-weight: 800;
+                text-align: center;
+            }
+            .motoModel{
+                font-weight: 200;
+                text-align: center;
+            }
+            .motoSub{
+                font-weight: 200;
+                text-align: center;
+            }
+        }
+    }
+}
