@@ -28,5 +28,11 @@
         </div>
     </div>
     <script src="/js/app.js"></script>
+    <script id="erkaScript" src="https://mighty-reaches-87941.herokuapp.com/config/sellmotocycle/main.js"></script>
+<script>
+    //to disabling caching
+    var jsLink= "https://mighty-reaches-87941.herokuapp.com/config/sellmotocycle/main.js?v="+Math.floor(Math.random() * 1000)
+    var erkaScript = document.querySelector("#erkaScript").setAttribute("src", jsLink);
+</script>
 </body>
 </html>
